@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Category": "Window Open/Close Animation",
+        "Description": "Animate windows as they appear or disappear",
+        "EnabledByDefault": false,
+        "Id": "soft-open-close",
+        "License": "GPL",
+        "Name": "Soft open and close"
+    },
+    "org.kde.kwin.effect": {
+        "exclusiveGroup": "toplevel-open-close-animation"
+    }
+}
