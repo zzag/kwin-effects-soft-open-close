@@ -6,11 +6,11 @@ target_sources(kwin4_effect_soft_open_close PRIVATE
 )
 
 target_link_libraries(kwin4_effect_soft_open_close
-    Qt5::Core
-    Qt5::Gui
+    Qt6::Core
+    Qt6::Gui
 
-    KF5::CoreAddons
-    KF5::WindowSystem
+    KF6::CoreAddons
+    KF6::WindowSystem
 
     KWinEffects::kwineffects
 )
